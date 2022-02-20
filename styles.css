@@ -166,10 +166,11 @@ main p {
 /* footer */
 footer {
     background-color: darkgray;
-    padding: 2vh 3vw;   
+    padding: 0 3vw ;   
 }
 
 footer h5 {
     border-top: 2px solid white;
     text-align: left;
+    padding: 2vh 0;
 }
