@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+/* header nav */
+header {
+    background-color: gray;
+    padding: 0 3vw;
+    height: 5vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 0.5rem;
+}
+
+nav ul,
+nav div,
+.button {
+    width: 33%;
+}
+
+.button {
+    text-align: right;
+}
+
+button {
+    background-color: gray;
+    padding: 2px 5px;
+    border: 2px solid white;
+    border-radius: 4px;
+}
+
+button a {
+    font-weight: bold;
+}
+
+/* hero */
+main {
+    padding: 10vh 7vw;
+    background-color: gray;
+    height: 100%;
+}
+
+main h2 {
+    font-size: 50px;
+}
+
+main p {
+    max-width: 75vw;
+    margin: 1rem auto;
+    /* border: 2px dashed green; */
+}
+
+/* why */
+.why {
+    padding: 10vh 7vw;
+    /* border: 2px solid red; */
+    /* height: 25vh; */
+    /* text-align: center; */
+
+}
+
+.why p {
+    /* border: 2px dashed green; */
+    max-width: 70%;
+    margin: 3vh auto;
+    /* padding: 0 10vw; */
+}
+
+/* box */
+.box {
+    padding: 5vh 7vw 3vh 7vw;
+    background-color: lightgray;
+    /* display: flex; */
+    justify-content: space-around;
+    /* text-align: center; */
+    /* border: 2px solid red; */
+}
+
+@media (min-width: 650px) {
+    .box {
+        display: flex;
+        gap: 2rem;
+    }
+}
+
+.box-a,
+.box-b {
+    /* border: 2px dashed green; */
+    margin-bottom: 2vh;
+}
+
+.box img,
+.box h3,
+.box p {
+    margin-bottom: 20px;
+}
+
+/* volunteer */
+.volunteer {
+    padding: 10vh 7vw;
+    /* text-align: center; */
+}
+
+.volunteer p {
+    max-width: 75vw;
+    margin: 3vh auto;
+}
+
+/* info before footer */
+.info {
+    background-color: darkgray;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    padding: 2vh 3vw;
+    align-items: stretch;
+}
+
+.info h3 {
+    text-align: left;
+    margin-top: 0.5rem;
+}
+
+.info .left,
+.info .right {
+    /* border: 2px dashed green; */
+}
+
+.info .left ul {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.right,
+.right address {
+    text-align: left;
+    font-style: normal;
+}
+
+.right span {
+    font-weight: bold;
+}
+
+/* footer */
+footer {
+    background-color: darkgray;
+    padding: 2vh 3vw;   
+}
+
+footer h5 {
+    border-top: 2px solid white;
+    text-align: left;
+}
