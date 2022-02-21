@@ -11,6 +11,10 @@ a {
     color: white;
 }
 
+a:hover {
+    color: black;
+}
+
 ul {
     list-style: none;
 }
@@ -36,7 +40,7 @@ nav ul {
 
 nav ul,
 nav div,
-.button {
+nav .button {
     width: 33%;
 }
 
@@ -53,6 +57,14 @@ button {
 
 button a {
     font-weight: bold;
+}
+
+button:hover {
+    background-color: white;
+}
+
+button:hover a {
+    color: gray;
 }
 
 /* hero */
@@ -119,6 +131,7 @@ main p {
 
 /* volunteer */
 .volunteer {
+    background-color: gray;
     padding: 10vh 7vw;
     /* text-align: center; */
 }
